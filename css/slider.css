@@ -1,0 +1,123 @@
+*
+{
+    cursor: url(../photo/defualtmousicon.png),default;
+}
+@font-face
+{        
+    font-family:"Font Awesome 5 Free";
+    font-style:normal;
+    font-weight:100;
+    src:url(../font/font_awesome/fa-solid-900.ttf) format("truetype");
+}
+.middleslider-w-75{
+    width: 70% !important;
+}
+.scontainer
+{
+    display: flex;
+    max-width: 80%;
+}
+.swiper
+{
+    width: 20%;
+}
+.midleslider
+{
+    width: 45%;
+}
+.swiper-slide
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.imgfix
+{
+    margin-bottom: -11.5%;
+}
+.imgfix2
+{
+    margin-bottom: -1%;
+}
+.subsliderpos
+{
+    position: relative;
+    bottom: 11%;
+}
+
+
+.textslider
+{
+    scale: 1.4;
+margin-top: 0px;
+padding-top: 2%;
+padding-bottom: 0px;
+}
+.textslide
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+}
+.textslide>span
+{
+display: block;
+width: 100%;
+text-align: center;
+font-size: 115%;
+font-weight: 500;
+color: rgb(97, 97, 97);
+margin-bottom: 7%;
+}
+.textslide>span+.text1
+{
+display: block;
+width: 55%;
+text-align: center;
+font-size: 97%;
+font-weight: 0;
+color: rgb(141, 141, 141);
+}
+.textslide>span+span
+{
+display: block;
+width: 80%;
+text-align: center;
+font-size: 90%;
+font-weight: 0;
+color: rgb(141, 141, 141);
+}
+.controller
+{
+width: 78.1%;
+height: 100%;
+position: absolute;
+z-index: 5;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+.swiper-next-button,.swiper-prev-button
+{
+    margin-bottom: 22%;
+    font-family:"Font Awesome 5 Free";
+    font-size: 20px;
+    color: rgb(148, 148, 148);
+    cursor: url(../photo/pointaermousicon.png),pointer;
+}
+.swiper-next-button::selection
+,.swiper-prev-button::selection
+{
+    background-color: transparent;
+}
+.swiper-next-button
+{
+margin-right: 22%;
+}
+.swiper-prev-button
+{
+margin-left: 22%;
+}

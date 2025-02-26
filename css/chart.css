@@ -1,0 +1,68 @@
+.ccontainer
+{
+    max-width: 1450px;
+    background-image: url(../photo/chart.png);
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-position:top left 61%;
+    position: relative;
+    top: 0px;
+}
+.chat1
+{
+    height: 25%;
+}
+.chat3
+{
+    margin-top: 0.5vw;
+}
+.chartxt>span
+{
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(117, 117, 117);
+}
+.chartxt>span+.text1
+{
+    font-size: 22.5px;
+    font-weight: 350;
+    display: block;
+    max-width: 400px;
+    color: rgb(114, 114, 114);
+}
+.chartxt>span+.text2
+{
+    font-size: 22.5px;
+    font-weight: 350;
+    display: block;
+    max-width: 455px;
+    color: rgb(114, 114, 114);
+}
+.chartxt>span+.text3
+{
+    font-size: 22.5px;
+    font-weight: 350;
+    display: block;
+    max-width: 460px;
+    border: soli;
+    color: rgb(114, 114, 114);
+}
+.trystring
+{
+    position: absolute;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.trystring>span
+{
+    font-size: 17px;
+    color: white;
+}
+.trystring>span+span
+{
+    font-size: 46px;
+    margin-bottom: 10px;
+}

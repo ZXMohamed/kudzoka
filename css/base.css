@@ -1,0 +1,181 @@
+*
+{border: 1px soli;
+   transition: all;
+   transition-duration: 1s;
+   cursor: url(../photo/defualtmousicon.png),default;
+}
+*::selection
+{
+color:none;
+background-color: transparent;
+}
+html,body
+{
+   overflow-x: hidden;
+   height: 100%;
+   margin: auto !important;
+}
+.chartframe
+{
+    margin: auto;
+    position: relative;
+    height:865px;
+    width: 1920px;
+}
+.sliderframe
+{
+    margin: auto;
+    position: relative;
+    width: 1920px;
+}
+.footerframe
+{
+    margin: auto;
+    height:710px;
+    width: 1920px;
+    overflow: hidden;
+}
+@media (max-width:1920px) {
+  .hbackground{
+    width: 100%;
+    background-image: url(../photo/blue_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+}
+.chartframe
+{
+    height:unset;
+    width: 100%;
+}
+.sliderframe
+{
+    width: 100%;
+}
+.footerframe
+{
+    margin: auto;
+    height:710px;
+    width: 1920px;
+    overflow: hidden;
+}
+}
+@media (max-width:1500px) {
+.footerframe
+{
+    margin: auto;
+    height:710px;
+    width: 3000px;
+    overflow: hidden;
+}
+.leftsec {
+    padding-left: 5vw;
+    align-items: flex-start;
+}
+}
+@media (max-width:1400px) {
+.ccontainer
+{
+    background-image: url(../photo/chart.png);
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-position:top left 61%;
+}
+.img{
+    width: 233.500px !important;
+}
+.try{
+    width: 350px;
+}
+.scontainer {
+    max-width: 100%;
+}
+.controller {
+    width: 100%;
+    height: 100%;
+}
+}
+@media (max-width:992px) {
+.mstyle{
+    margin-left: 40px;
+}
+.underlinebar{
+    display: none;
+}
+.nav-item {
+    margin-right: 0px;
+}
+.btn{
+    width: 20%;
+}
+.para{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.first {
+    width: 450px;
+    position: absolute;
+    top: -10%;
+    left: -5%;
+}
+.secound {
+    width: 200px;
+    position: absolute;
+    top: -4%;
+    left: 18%;
+}
+.third {
+    width: 300px;
+    position: absolute;
+    top:65%;
+    left: 10%;
+    filter: opacity(99%);
+}
+.fourth {
+    position: absolute;
+    top:70%;
+    right: 47%;
+    opacity: 1.5;
+}
+.hbackground{
+    height: unset;
+  }
+.ccontainer
+{
+    background-image: unset;
+}
+.chartxt{
+    margin-bottom: 50px !important;
+}
+.chartframe
+{
+    margin-top: 120px;
+}
+.ss{
+    display: none;
+}
+.swiper {
+    width:60%;
+}
+
+.swiper-next-button {
+    margin-right: 42%;
+}
+
+.swiper-prev-button {
+    margin-left: 42%;
+}
+
+.middleslider-w-75 {
+    width: 100% !important;
+}
+
+}
+
+@media (max-width:400px) {
+    .bottomnavbar{
+        display:none;
+    }
+    .downloadbutton{
+        flex-direction: column;
+    }
+}
