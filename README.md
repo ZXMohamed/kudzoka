@@ -45,3 +45,20 @@
 </div>
 
 ###
+<h3 align="left">Contacts</h3>
+
+###
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/mohamed-kamal-10465220a/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="50" height="30" alt="linkedin logo"  />
+  </a>
+  <a href="https://stackoverflow.com/users/15161247/mohamed-kamal" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/stackoverflow/default.svg" width="50" height="30" alt="stackoverflow logo"  />
+  </a>
+  <a href="mail to : mhmdalshwamy@outlook.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/microsoft-outlook/default.svg" width="50" height="30" alt="microsoft-outlook logo"  />
+  </a>
+</div>
+
+###
